@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background:transparent;
+    background: rgb(130, 127, 130);
+    align-content: center;
+}
+header .logo{
+    padding-top: 0.5%;
+    width: 80px;
+    height: 80%;
+    margin-left: 5px;
+    display: flex;
+}
+.p{
+    margin-top: 15px;
+    color:#fff
+}
+.p:hover{
+    color:black;
+}
+img{
+    width: 80%;
+    border-radius: 25px;
+}
+header .item{
+    width:50%;
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13%;
+
+}
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+.item a:hover{
+    color: rgb(11, 9, 11);
+    text-decoration: lightblue;
+}
+.login{
+    width: 5%;
+    height: 30px;
+    background-color: rgb(179, 134, 186);
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left:9%;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.login:hover{
+    width: 6%;
+    color: rgb(16, 6, 6);
+}
+.giohang{
+    width: 5%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 3%;
+    margin-top: 5px;
+    color: #050505;
+    transition: .5s;
+}
+.giohang:hover{
+    font-size: 55px;
+    color: #fff;
+}
+.warpper{
+    width: 100%;
+}
+.content1{
+    width: 100%;
+    height: 500px;
+    background: rgb(206, 205, 205);
+    display: flex;
+}
+.dongho{
+    width: 50%;
+    height: 100%;
+    background: rgb(206, 205, 205);
+}
+.dongho img{
+    height: 90%;
+    width: 70%;
+    transition: .5s;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.dongho img:hover{
+    width: 73%;
+    height: 92%;
+}
+.noidung{
+    width: 50%;
+    height: 100%;
+    background: rgb(206, 205, 205);
+}
+.chu{
+    text-align: center;
+    padding-top: 2%;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.noidung .chu  h1{
+    width: 80%;
+    height: 100%;
+    background-color: rgb(206, 205, 205);
+}
+.lienhe{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 26%;
+}
+.lienhe p{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    border-radius: 12px;
+    background: black;
+    padding-top: 5%;
+    border: 1px solid gray;
+}
+.lienhe p:hover{
+    background: white;
+    color: black;
+}
+
+.noidung .goiy{
+    margin-top: 30px;
+    margin-left: 23px;
+    font-size: 20px;
+    width: 50%;
+}
+
+.noidung .goiy p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 96%;
+    height: 100%;
+    background-color:rgb(206, 205, 205);
+    border-radius: 10px;
+}
+
+.noidung .sanpham{
+    background-color: rgb(206, 205, 205);
+    border-radius: 12px;
+    margin: 5px;
+    margin-left: 20px;
+    height: auto;
+    width: 50%;
+    display: flex;
+    overflow-x: auto;
+}
+
+.noidung .sanpham::-webkit-scrollbar{
+    display: none;
+}
+
+.noidung .sanpham img{
+    margin: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+.noidung .sanpham img:hover{
+    height: 105px;
+    width: 105px;
+}
+
+.noidung .sanpham p{
+    color: #050505;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tintuc{
+    width: 100%;
+    height: 50px;
+    background:rgb(206, 205, 205) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.giua
+{
+    width: 100%;
+    height: 400px;
+    background: rgb(206, 205, 205);
+    display: flex;
+}
+.model, .loai{
+    width: 50%;
+    height: 100%;
+}
+
+.model{
+    background-color: rgb(206, 205, 205);
+    display: flex;
+}
+
+.model1 ,.model2{
+    width: 50%;
+    height: 100%;
+}
+
+.model1{
+    background-color: rgb(206, 205, 205);
+}
+.model2{
+    background-color: rgb(206, 205, 205);
+}
+
+.model1 p{
+    margin: 25px;
+    color:black;
+}
+
+.model2 p{
+    margin: 25px;
+    color:black;
+}
+
+
+.model2{
+    background-color: rgb(206, 205, 205);
+}
+.loai{
+    display: flex;
+    background: rgb(206, 205, 205);
+}
+.loai .p{
+    color:black;
+}
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background: black;
+    display: flex;
+    gap:3%
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30%;
+}
+.logo1{
+    margin-top: 20px;
+}
+.logo2{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.box{
+    width: 30%;
+    height: 100%;
+}
+.mnu{
+    margin-top: 25px;
+    color: #fff;
+    margin-left: 15px;
+}
+.quick-menu{
+    margin-left: 15px;
+}
+p{
+    color: #fff;
+}
+.box .theo{
+    margin-top: 20px;
+    color:#fff;
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 0, 0);
+}
+.fb{
+    width: 100%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+
+.box .icon .bx{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: #050505;
+    margin: 17px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+

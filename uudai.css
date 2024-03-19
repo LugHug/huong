@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background:transparent;
+    background: rgb(130, 127, 130);
+    align-content: center;
+}
+header .logo{
+    padding-top: 0.5%;
+    width: 80px;
+    height: 80%;
+    margin-left: 5px;
+    display: flex;
+}
+.p{
+    margin-top: 15px;
+}
+.p:hover{
+    color:black;
+}
+img{
+    width: 80%;
+    border-radius: 25px;
+}
+header .item{
+    width:50%;
+    display: flex;
+    gap: 6%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13%;
+
+}
+.item a{
+    color: #fff;
+    text-decoration: none;
+}
+.item a:hover{
+    color: rgb(11, 9, 11);
+    text-decoration: lightblue;
+}
+.login{
+    width: 5%;
+    height: 30px;
+    background-color: rgb(179, 134, 186);
+    color: #fff;
+    text-align: center;
+    margin-top: 1.5%;
+    margin-left:9%;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.login:hover{
+    width: 6%;
+    color: rgb(16, 6, 6);
+}
+.giohang{
+    width: 5%;
+    height: 100%;
+    font-size: 50px;
+    margin-left: 3%;
+    margin-top: 5px;
+    color: #050505;
+    transition: .5s;
+}
+.giohang:hover{
+    font-size: 55px;
+    color: #fff;
+}
+.chu
+{
+    width: 100%;
+    height: 40px;
+    background: pink;
+}
+#content3 .box-left,#content3 .box-right{
+    width: 50%;
+    border-radius: 20px;
+    word-spacing: 12px;
+}
+#content3 .box-left{
+    background-color: rgb(122, 98, 98);
+    text-align: center;
+}
+
+#content3 .box-left h1{
+    padding-top: 38px;
+}
+
+#content3 .box-left h1 {
+    color: rgb(190, 11, 11);
+    font-size: 50px;
+}
+#content3 .box-left p{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+#content3 .box-right img{
+    height: 380px;
+}
+
+#content3{
+    width: 90%;
+    display: flex;
+    height: 400px;
+}
+#footer{
+    width: 100%;
+    height: 200px;
+    background: black;
+    display: flex;
+    gap:3%
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30%;
+}
+.logo1{
+    margin-top: 20px;
+}
+.logo2{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.box{
+    width: 30%;
+    height: 100%;
+}
+.mnu{
+    margin-top: 25px;
+    color: #fff;
+    margin-left: 15px;
+}
+.quick-menu{
+    margin-left: 15px;
+}
+p{
+    color: #fff;
+}
+.box .theo{
+    margin-top: 20px;
+    color:#fff;
+    width: 100%;
+    height: 40px;
+    background: rgb(0, 0, 0);
+}
+.fb{
+    width: 100%;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+
+.box .icon .bx{
+    background-color: rgb(255, 255, 255);
+    font-size: 50px;
+    color: #050505;
+    margin: 17px;
+    border-radius: 50%;
+}
